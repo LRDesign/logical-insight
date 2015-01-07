@@ -4,10 +4,13 @@
 .conductor/
 corundum/
 doc/
-insight-test.log
-insight.sqlite
+rack-insight-test.log
+rack-insight.sqlite
 notions-and-tests/
 pkg/
 .sass-cache/
 .yardoc/
 gh-pages/
+Gemfile.lock
+*.log
+.idea

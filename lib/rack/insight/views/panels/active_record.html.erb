@@ -1,0 +1,19 @@
+<h3>ActiveRecord Objects</h3>
+<table class="sortable">
+<thead>
+  <tr>
+    <th>Count</th>
+    <th>Class</th>
+  </tr>
+</thead>
+<tbody>
+  <% i = 1 %>
+  <% records.each do |class_name, count| %>
+    <tr class="<%= i % 2 == 0 ? "even" : "odd" %>">
+      <td><%= count %></td>
+      <td><%= class_name %></td>
+    </tr>
+    <% i += 1 %>
+  <% end %>
+</tbody>
+</table>
